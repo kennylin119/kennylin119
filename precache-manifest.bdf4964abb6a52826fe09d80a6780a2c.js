@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f5c81a1c62840b737a3adc5f2fc574e8",
+    "revision": "b10ba64a2fe268d7eedbaaf3eb4c900e",
     "url": "/index.html"
   },
   {
-    "revision": "635f095594d8249326ac",
-    "url": "/static/css/main.1db2a9e9.chunk.css"
+    "revision": "087ba54c1519fc12f61b",
+    "url": "/static/css/main.e49b737f.chunk.css"
   },
   {
-    "revision": "d573019a07ce35a61b40",
-    "url": "/static/js/2.215fcd24.chunk.js"
+    "revision": "d5da146fe6125da517f6",
+    "url": "/static/js/2.cc54c64a.chunk.js"
   },
   {
-    "revision": "635f095594d8249326ac",
-    "url": "/static/js/main.0a920161.chunk.js"
+    "revision": "087ba54c1519fc12f61b",
+    "url": "/static/js/main.2cc9ad86.chunk.js"
   },
   {
     "revision": "770988b4c321d1fed507",
@@ -50,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ee6539921d713482b8ccd4d0d23961bb",
     "url": "/static/media/Montserrat-Regular.ee653992.ttf"
+  },
+  {
+    "revision": "87de240bd1f2271a457aa2b8286fa45d",
+    "url": "/static/media/Stuyvesant_logo.87de240b.png"
   },
   {
     "revision": "3b021f8ffcf9f323ea72abc28382e234",
@@ -206,6 +210,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4ba886bafb9ff0a5b71b800c47f45d90",
     "url": "/static/media/legato_logo.4ba886ba.png"
+  },
+  {
+    "revision": "149f393ff9967c6601a96806b1e3701e",
+    "url": "/static/media/lehigh_logo.149f393f.png"
   },
   {
     "revision": "52be31441c8cf8a8a16bd7a228d428bf",
