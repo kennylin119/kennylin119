@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.e49b737f.chunk.css",
-    "main.js": "/static/js/main.91c363a9.chunk.js",
-    "main.js.map": "/static/js/main.91c363a9.chunk.js.map",
+    "main.css": "/static/css/main.8f24ecdd.chunk.css",
+    "main.js": "/static/js/main.ab819d29.chunk.js",
+    "main.js.map": "/static/js/main.ab819d29.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c95f2a9e.js",
     "runtime-main.js.map": "/static/js/runtime-main.c95f2a9e.js.map",
-    "static/js/2.891fc032.chunk.js": "/static/js/2.891fc032.chunk.js",
-    "static/js/2.891fc032.chunk.js.map": "/static/js/2.891fc032.chunk.js.map",
+    "static/js/2.e828af7c.chunk.js": "/static/js/2.e828af7c.chunk.js",
+    "static/js/2.e828af7c.chunk.js.map": "/static/js/2.e828af7c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.e7d47c9c7f6d613cdf868bab33c893bb.js": "/precache-manifest.e7d47c9c7f6d613cdf868bab33c893bb.js",
+    "precache-manifest.8b0ab9a784b9b6822cc00fa14778125d.js": "/precache-manifest.8b0ab9a784b9b6822cc00fa14778125d.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.e49b737f.chunk.css.map": "/static/css/main.e49b737f.chunk.css.map",
+    "static/css/main.8f24ecdd.chunk.css.map": "/static/css/main.8f24ecdd.chunk.css.map",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/Stuyvesant_logo.png": "/static/media/Stuyvesant_logo.87de240b.png",
     "static/media/address_image.svg": "/static/media/address_image.3b021f8f.svg",
@@ -27,6 +27,7 @@
     "static/media/education.svg": "/static/media/education.caed892b.svg",
     "static/media/experience.svg": "/static/media/experience.85d6957f.svg",
     "static/media/all.css": "/static/media/fa-solid-900.c2801fb4.svg",
+    "static/media/favicon-32x32.jpeg": "/static/media/favicon-32x32.d2009a5a.jpeg",
     "static/media/feelingProud.svg": "/static/media/feelingProud.a73310ea.svg",
     "static/media/fullstack.svg": "/static/media/fullstack.589bec7d.svg",
     "static/media/gcp_logo.png": "/static/media/gcp_logo.ba18401b.png",
@@ -54,8 +55,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.c95f2a9e.js",
-    "static/js/2.891fc032.chunk.js",
-    "static/css/main.e49b737f.chunk.css",
-    "static/js/main.91c363a9.chunk.js"
+    "static/js/2.e828af7c.chunk.js",
+    "static/css/main.8f24ecdd.chunk.css",
+    "static/js/main.ab819d29.chunk.js"
   ]
 }
