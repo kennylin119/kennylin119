@@ -59,7 +59,7 @@
       "name": "CSE 297: Blockchain Project",
       "createdAt": "2020-12-01",
       "url": "https://github.com/kennylin119/",
-      "description": "Implemented private blockchain with Merkle/Patricia tree structure, new block validation, and proof of membership/non membership",
+      "description": "⚡ Implemented private blockchain with Merkle/Patricia tree structure, new block validation, and proof of membership/non membership",
       "isFork": false,
       "languages": [
         {
