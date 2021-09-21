@@ -1,3 +1,105 @@
 {
-  "data": []
+  "data": [
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      "name": "Data 4 Impact: A Dose of AI for Disease Prevention and Treatment",
+      "createdAt": "2020-08-01",
+      "url": "https://creativeinquiry.lehigh.edu/data-impact-summer-institute/dose-ai-%C2%A0disease-prevention-and-treatment",
+      "description": [
+        "⚡ Modified an existing U-Net (Convolutional Neural Network) implementation to perform blood vessel segmentation on a new database of ROP images from the Children’s Hospital of Pennsylvania",
+        "⚡ Incorporated multi-view eye imagery and different classifiers to compare and improve sensitivity and specificity metrics"
+      ],
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos:python"
+        },
+        {
+          "name": "Tensorflow",
+          "iconifyClass": "logos:tensorflow"
+        },
+        {
+          "name": "Sklearn",
+          "iconifyClass": "simple-icons:scikitlearn"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNjkwNzUwMjM=",
+      "name": "Mountaintop Summer Experience: COVID-19 Syndromic Surveillance System",
+      "createdAt": "2020-08-01",
+      "url": "https://wordpress.lehigh.edu/summerexpo/team/mathematical-modeling-and-syndromic-surveillance-of-covid-19-in-pennsylvania/",
+      "description": [
+        "⚡ Created a Holt-Winters model to forecast new cases of the COVID-19 outbreak for each county in Pennsylvania for incorporation into a larger statistical ensemble featuring 5 different models",
+        "⚡ Helped web scrape 2 new data sources from PA DOH to further improve the model and wrote initial draft of white paper"
+      ],
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos:python"
+        },
+        {
+          "name": "Pandas",
+          "iconifyClass": "simple-icons:pandas"
+        },
+        {
+          "name": "NumPy",
+          "iconifyClass": "logos:numpy"
+        },
+        {
+          "name": "Beautiful Soup",
+          "iconifyClass": "ic:outline-soup-kitchen"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNzM1MTI1NTE=",
+      "name": "CSE 297: Blockchain Project",
+      "createdAt": "2020-12-01",
+      "url": "https://github.com/kennylin119/",
+      "description": "Implemented private blockchain with Merkle/Patricia tree structure, new block validation, and proof of membership/non membership",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Java",
+          "iconifyClass": "logos:java"
+        },
+        {
+          "name": "Solidity",
+          "iconifyClass": "vscode-icons:file-type-light-solidity"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkxNTU5NTE3NTk=",
+      "name": "CSE 341 - Nickel Savings Bank",
+      "createdAt": "2019-12-01",
+      "url": "https://github.com/kennylin119/",
+      "description": [
+        "⚡ Created a fully-fledged database system and command line interface for a mock bank with support for viewing/creating different types of loan/credit/savings accounts and making deposits/withdrawals/payments",
+        "⚡ Implemented a robust login system with different hierarchical levels of access between customers and bank administrators"
+      ],
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Java",
+          "iconifyClass": "logos:java"
+        },
+        {
+          "name": "SQL",
+          "iconifyClass": "carbon:sql"
+        },
+        {
+          "name": "JDBC",
+          "iconifyClass": "vscode-icons:file-type-sql"
+        },
+        {
+          "name": "ER Diagram",
+          "iconifyClass": "icon-park:tree-diagram"
+        }
+      ]
+    }
+  ]
 }

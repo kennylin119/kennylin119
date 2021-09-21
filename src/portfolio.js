@@ -11,7 +11,7 @@ const seo = {
   description:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   og: {
-    title: "Kenny Lin Portfolio",
+    title: "Kenny Lin's Portfolio",
     type: "website",
     url: "https://kennylin119.github.io",
   },
@@ -25,8 +25,8 @@ const greeting = {
   subTitle:
     "Hello, World! 👀 I'm a current senior at Lehigh University, studying Computer Science with minors in Data Science, Earth Science, and Chinese. I'm a big believer in all things tech and super excited to help build the future!",
   resumeLink:
-    "https://drive.google.com/file/d/1-UQKp97cXCsHkr86rsF6UkECtwjILIMm/view?usp=sharing",
-  portfolio_repository: "https://github.com/kennylin119/personal_website",
+    "https://drive.google.com/file/d/1VD_qGlwNzgLjagJ98vMMmzypBIrCNqhj/view?usp=sharing",
+  portfolio_repository: "https://github.com/kennylin119",
 };
 
 const socialMediaLinks = [
@@ -84,33 +84,25 @@ const skills = {
       ],
       softwareSkills: [
         {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
+          skillName: "QlikSense",
+          fontAwesomeClassname: "vscode-icons:file-type-qlikview",
           style: {
             backgroundColor: "transparent",
           },
         },
         {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
+          skillName: "SQL",
+          fontAwesomeClassname: "carbon:sql",
           style: {
             backgroundColor: "white",
             color: "#D00000",
           },
         },
         {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
           skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
+          fontAwesomeClassname: "logos:python",
           style: {
             backgroundColor: "transparent",
-            color: "#3776AB",
           },
         },
       ],
@@ -139,8 +131,8 @@ const skills = {
           },
         },
         {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
+          skillName: "ReactJS",
+          fontAwesomeClassname: "logos:react",
           style: {
             color: "#CC6699",
           },
@@ -154,45 +146,38 @@ const skills = {
           },
         },
         {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
+          skillName: "Figma",
+          fontAwesomeClassname: "simple-icons:figma",
+          style: {
+            color: "#F24E1E",
+          },
+        },
+        {
+          skillName: "Jest",
+          fontAwesomeClassname: "logos:jest",
           style: {
             color: "#61DAFB",
           },
         },
         {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
+          skillName: "AWS",
+          fontAwesomeClassname: "logos:aws",
           style: {
             color: "#CB3837",
           },
         },
         {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
+          skillName: "Jenkins",
+          fontAwesomeClassname: "logos:jenkins",
           style: {
             color: "#2C8EBB",
           },
         },
         {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
+          skillName: "Jira",
+          fontAwesomeClassname: "logos:jira",
           style: {
             color: "#663399",
-          },
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
           },
         },
       ],
@@ -207,38 +192,24 @@ const skills = {
       ],
       softwareSkills: [
         {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
+          skillName: "HTML5",
+          fontAwesomeClassname: "simple-icons:html5",
           style: {
-            color: "#4285F4",
+            color: "#E34F26",
           },
         },
         {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
+          skillName: "CSS3",
+          fontAwesomeClassname: "fa-css3",
           style: {
-            color: "#FF9900",
+            color: "#1572B6",
           },
         },
         {
-          skillName: "Azure",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
+          skillName: "ReactJS",
+          fontAwesomeClassname: "logos:react",
           style: {
-            color: "#0089D6",
-          },
-        },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
-          },
-        },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#336791",
+            color: "#CC6699",
           },
         },
         {
@@ -248,56 +219,49 @@ const skills = {
             color: "#47A248",
           },
         },
-        {
-          skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
-          style: {
-            color: "#1488C6",
-          },
-        },
-        {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "simple-icons:kubernetes",
-          style: {
-            color: "#326CE5",
-          },
-        },
       ],
     },
     {
       title: "Lehigh CSE Department",
       subtitle: "Bethlehem, Pennsylvania",
-      fileName: "DesignImg",
+      fileName: "developerActivity",
       skills: [
         "⚡ Held office hours and assisted in grading of homework and exams for CSE 140: Foundations of Discrete Structures and Algorithms (150 students) and CSE 340: Design and Analysis of Algorithms (125 students)",
       ],
       softwareSkills: [
         {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
+          skillName: "Java",
+          fontAwesomeClassname: "logos:java",
           style: {
             color: "#FF2BC2",
           },
         },
         {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
+          skillName: "C/C++",
+          fontAwesomeClassname: "gg:c-plus-plus",
           style: {
-            color: "#F24E1E",
+            color: "#1572B6",
           },
         },
         {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
+          skillName: "Python",
+          fontAwesomeClassname: "logos:python",
           style: {
-            color: "#FF7C00",
+            color: "#FF2BC2",
           },
         },
         {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
+          skillName: "Rust",
+          fontAwesomeClassname: "vscode-icons:file-type-rust",
           style: {
-            color: "#000000",
+            color: "#FF2BC2",
+          },
+        },
+        {
+          skillName: "R",
+          fontAwesomeClassname: "cib:rstudio",
+          style: {
+            color: "#CC6699",
           },
         },
       ],
@@ -350,7 +314,7 @@ const degrees = {
         "⚡ Because of my performance, I was selected as a course grader for CSE 140: Discrete Structures and Algorithms (150 students) and CSE 340: Design and Analysis of Algorithms (125 students)",
         "⚡ I was also a Project Coordinator for Society of Asian Scientists and Engineers (SASE) and a Treasurer for Southeast Asia at Lehigh (SEAL).",
       ],
-      website_link: "http://iiitk.ac.in",
+      website_link: "https://www1.lehigh.edu",
     },
     {
       title: " Stuyvesant High School",
@@ -363,7 +327,7 @@ const degrees = {
         "⚡ During my time there, I headed the Rowing Club and the Dragon Boating Club as President. I also directed a fall STC production of the Great Gatsby as well as the Stuy Flow dance crew for SING!. I wrote for the Humor and Opinion sections of the Stuyvesant Spectator and while in the Speech and Debate Team, I ranked 8th in the 2017 States Tournament.",
         "⚡ I was also selected for the National Merit Scholarship and won awards for my performance in AP Environmental Science, Nutritional Science and Photography.",
       ],
-      website_link: "http://iiitk.ac.in",
+      website_link: "https://stuy.enschool.org",
     },
   ],
 };
@@ -626,12 +590,12 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "I've worked on a number of research projects involving bleeding edge technologies such as deep learning and statistical forecasting. My contributions have helped to prevent blindness in infants as well as help mitigate the spread of the COVID-19 pandemic. I've also worked on a number of personal projects in my classes involving blockchain, databases, and more.",
   avatar_image_path: "projects_image.svg",
 };
 
 const publicationsHeader = {
-  title: "Publications",
+  title: "Research Projects",
   description:
     "I have worked on and published a few research papers and publications of my own.",
   avatar_image_path: "projects_image.svg",
