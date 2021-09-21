@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: "Kenny Lin Portfolio",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "https://kennylin119.github.io",
   },
 };
 
@@ -21,12 +21,12 @@ const seo = {
 const greeting = {
   title: "Kenny Lin",
   logo_name: "KennyLin",
-  nickname: "kalexis",
+  nickname: "林凯霄",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "Hello, World! 👀 I'm a current senior at Lehigh University, studying Computer Science with minors in Data Science, Earth Science, and Chinese. I'm a big believer in all things tech and super excited to help build the future!",
   resumeLink:
     "https://drive.google.com/file/d/1-UQKp97cXCsHkr86rsF6UkECtwjILIMm/view?usp=sharing",
-  portfolio_repository: "https://github.com/ashutosh1919/personal_website",
+  portfolio_repository: "https://github.com/kennylin119/personal_website",
 };
 
 const socialMediaLinks = [
@@ -74,12 +74,13 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Data Science & AI",
+      title: "Stellantis (formerly Fiat Chrysler Automobiles)",
+      subtitle: "Detroit, Michigan",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+        "⚡ Architected a new VIN database （60 million rows) containing aggregate data from five different departments, setting up the foundation for future business analytics and dashboard development",
+        "⚡ Created multiple dashboards from database, powering analytics and enabling new revenue of over 33 million a year",
+        "⚡ Won “Most Inspiring Award” for electrified Jeep ATV/UTV market entry pitch to company leadership",
       ],
       softwareSkills: [
         {
@@ -115,12 +116,12 @@ const skills = {
       ],
     },
     {
-      title: "Full Stack Development",
+      title: "Lutron Electronics",
+      subtitle: "Coopersburg, Pennsylvania",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building resposive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Rebuilt product ordering website and designed new mobile friendly UI/UX, allowing contractors to customize and showcase their product configurations directly in client’s homes without use of a laptop",
+        "⚡ Enabled time savings of 50% by utilizing a data driven approach, allowing new products to be added to the website with little to no changes in the frontend code",
       ],
       softwareSkills: [
         {
@@ -197,13 +198,12 @@ const skills = {
       ],
     },
     {
-      title: "Cloud Infra-Architecture",
+      title: "31 TEN",
+      subtitle: "Shanghai, China",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "⚡ Increased client understanding of technical terms by designing and building website to explain computer science nomenclature with posting and search functionality, login through OAuth, and connection to Reddit APIs",
+        "⚡ Quality tested coupon creation backend for APM WeChat Mini Program and created a user story for Tumi Instagram filter game",
       ],
       softwareSkills: [
         {
@@ -265,12 +265,11 @@ const skills = {
       ],
     },
     {
-      title: "UI/UX Design",
+      title: "Lehigh CSE Department",
+      subtitle: "Bethlehem, Pennsylvania",
       fileName: "DesignImg",
       skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
+        "⚡ Held office hours and assisted in grading of homework and exams for CSE 140: Foundations of Discrete Structures and Algorithms (150 students) and CSE 340: Design and Analysis of Algorithms (125 students)",
       ],
       softwareSkills: [
         {
@@ -310,44 +309,28 @@ const skills = {
 const competitiveSites = {
   competitiveSites: [
     {
+      siteName: "LeetCode",
+      iconifyClassname: "simple-icons:leetcode",
+      style: {
+        color: "#323754",
+      },
+      profileLink: "https://leetcode.com/kennylin119/",
+    },
+    {
       siteName: "HackerRank",
       iconifyClassname: "simple-icons:hackerrank",
       style: {
         color: "#2EC866",
       },
-      profileLink: "https://www.hackerrank.com/layman_brother",
+      profileLink: "https://www.hackerrank.com/kennylin119",
     },
     {
-      siteName: "Codechef",
-      iconifyClassname: "simple-icons:codechef",
+      siteName: "CodeSignal",
+      iconifyClassname: "bx:bx-code-alt",
       style: {
         color: "#5B4638",
       },
-      profileLink: "https://www.codechef.com/users/ashutosh_1919",
-    },
-    {
-      siteName: "Codeforces",
-      iconifyClassname: "simple-icons:codeforces",
-      style: {
-        color: "#1F8ACB",
-      },
-      profileLink: "http://codeforces.com/profile/layman_brother",
-    },
-    {
-      siteName: "Hackerearth",
-      iconifyClassname: "simple-icons:hackerearth",
-      style: {
-        color: "#323754",
-      },
-      profileLink: "https://www.hackerearth.com/@ashutosh391",
-    },
-    {
-      siteName: "Kaggle",
-      iconifyClassname: "simple-icons:kaggle",
-      style: {
-        color: "#20BEFF",
-      },
-      profileLink: "https://www.kaggle.com/laymanbrother",
+      profileLink: "https://app.codesignal.com/profile/kenny_l_3po",
     },
   ],
 };
@@ -355,15 +338,30 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "Indian Institute of Information Technology Kurnool",
-      subtitle: "B.Tech. in Computer Engineering",
-      logo_path: "iiitk_logo.png",
-      alt_name: "IIITDM Kurnool",
-      duration: "2016 - Present",
+      title: "Lehigh University",
+      subtitle:
+        "B.S. in Computer Science, Minors in Data Science, Environmental Science, Chinese",
+      logo_path: "lehigh_logo.png",
+      alt_name: "Lehigh University",
+      duration: "2018 - 2022",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        "⚡ Lehigh University is a prestigious research university about an hour outside of Philidelphia, Pennsylvania. It has been consistently ranked in the top 50 schools in the United States.",
+        "⚡ I've taken fundamental courses in Data Structures, Algorithms, Software Engineering, Database Systems, and Web Development as well as advanced classes such as Machine Learning, Operating Systems, Computer Architecture, and Parallel Computing.",
+        "⚡ Because of my performance, I was selected as a course grader for CSE 140: Discrete Structures and Algorithms (150 students) and CSE 340: Design and Analysis of Algorithms (125 students)",
+        "⚡ I was also a Project Coordinator for Society of Asian Scientists and Engineers (SASE) and a Treasurer for Southeast Asia at Lehigh (SEAL).",
+      ],
+      website_link: "http://iiitk.ac.in",
+    },
+    {
+      title: " Stuyvesant High School",
+      subtitle: "",
+      logo_path: "Stuyvesant_logo.png",
+      alt_name: "Stuyvesant",
+      duration: "2014 - 2018",
+      descriptions: [
+        "⚡ Stuyvesant High School is an ultra competive STEM school in New York City that has been ranked as the #1 high school in the city.",
+        "⚡ During my time there, I headed the Rowing Club and the Dragon Boating Club as President. I also directed a fall STC production of the Great Gatsby as well as the Stuy Flow dance crew for SING!. I wrote for the Humor and Opinion sections of the Stuyvesant Spectator and while in the Speech and Debate Team, I ranked 8th in the 2017 States Tournament.",
+        "⚡ I was also selected for the National Merit Scholarship and won awards for my performance in AP Environmental Science, Nutritional Science and Photography.",
       ],
       website_link: "http://iiitk.ac.in",
     },
@@ -372,114 +370,114 @@ const degrees = {
 
 const certifications = {
   certifications: [
-    {
-      title: "Machine Learning",
-      subtitle: "- Andrew Ng",
-      logo_path: "stanford_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-      alt_name: "Stanford University",
-      color_code: "#8C151599",
-    },
-    {
-      title: "Deep Learning",
-      subtitle: "- Andrew Ng",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
-      alt_name: "deeplearning.ai",
-      color_code: "#00000099",
-    },
-    {
-      title: "ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
-    },
-    {
-      title: "Data Science",
-      subtitle: "- Alex Aklson",
-      logo_path: "ibm_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
-      alt_name: "IBM",
-      color_code: "#1F70C199",
-    },
-    {
-      title: "Big Data",
-      subtitle: "- Kim Akers",
-      logo_path: "microsoft_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
-      alt_name: "Microsoft",
-      color_code: "#D83B0199",
-    },
-    {
-      title: "Advanced Data Science",
-      subtitle: "- Romeo Kienzler",
-      logo_path: "ibm_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
-      alt_name: "IBM",
-      color_code: "#1F70C199",
-    },
-    {
-      title: "Advanced ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
-    },
-    {
-      title: "DL on Tensorflow",
-      subtitle: "- Laurence Moroney",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
-      alt_name: "deeplearning.ai",
-      color_code: "#00000099",
-    },
-    {
-      title: "Fullstack Development",
-      subtitle: "- Jogesh Muppala",
-      logo_path: "coursera_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
-      alt_name: "Coursera",
-      color_code: "#2A73CC",
-    },
-    {
-      title: "Kuberenetes on GCP",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
-      alt_name: "GCP",
-      color_code: "#4285F499",
-    },
-    {
-      title: "Cryptography",
-      subtitle: "- Saurabh Mukhopadhyay",
-      logo_path: "nptel_logo.png",
-      certificate_link:
-        "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
-      alt_name: "NPTEL",
-      color_code: "#FFBB0099",
-    },
-    {
-      title: "Cloud Architecture",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
-      alt_name: "GCP",
-      color_code: "#4285F499",
-    },
+    // {
+    //   title: "Machine Learning",
+    //   subtitle: "- Andrew Ng",
+    //   logo_path: "stanford_logo.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
+    //   alt_name: "Stanford University",
+    //   color_code: "#8C151599",
+    // },
+    // {
+    //   title: "Deep Learning",
+    //   subtitle: "- Andrew Ng",
+    //   logo_path: "deeplearning_ai_logo.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
+    //   alt_name: "deeplearning.ai",
+    //   color_code: "#00000099",
+    // },
+    // {
+    //   title: "ML on GCP",
+    //   subtitle: "- GCP Training",
+    //   logo_path: "google_logo.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
+    //   alt_name: "Google",
+    //   color_code: "#0C9D5899",
+    // },
+    // {
+    //   title: "Data Science",
+    //   subtitle: "- Alex Aklson",
+    //   logo_path: "ibm_logo.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
+    //   alt_name: "IBM",
+    //   color_code: "#1F70C199",
+    // },
+    // {
+    //   title: "Big Data",
+    //   subtitle: "- Kim Akers",
+    //   logo_path: "microsoft_logo.png",
+    //   certificate_link:
+    //     "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
+    //   alt_name: "Microsoft",
+    //   color_code: "#D83B0199",
+    // },
+    // {
+    //   title: "Advanced Data Science",
+    //   subtitle: "- Romeo Kienzler",
+    //   logo_path: "ibm_logo.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
+    //   alt_name: "IBM",
+    //   color_code: "#1F70C199",
+    // },
+    // {
+    //   title: "Advanced ML on GCP",
+    //   subtitle: "- GCP Training",
+    //   logo_path: "google_logo.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
+    //   alt_name: "Google",
+    //   color_code: "#0C9D5899",
+    // },
+    // {
+    //   title: "DL on Tensorflow",
+    //   subtitle: "- Laurence Moroney",
+    //   logo_path: "deeplearning_ai_logo.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
+    //   alt_name: "deeplearning.ai",
+    //   color_code: "#00000099",
+    // },
+    // {
+    //   title: "Fullstack Development",
+    //   subtitle: "- Jogesh Muppala",
+    //   logo_path: "coursera_logo.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
+    //   alt_name: "Coursera",
+    //   color_code: "#2A73CC",
+    // },
+    // {
+    //   title: "Kuberenetes on GCP",
+    //   subtitle: "- Qwiklabs",
+    //   logo_path: "gcp_logo.png",
+    //   certificate_link:
+    //     "https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
+    //   alt_name: "GCP",
+    //   color_code: "#4285F499",
+    // },
+    // {
+    //   title: "Cryptography",
+    //   subtitle: "- Saurabh Mukhopadhyay",
+    //   logo_path: "nptel_logo.png",
+    //   certificate_link:
+    //     "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
+    //   alt_name: "NPTEL",
+    //   color_code: "#FFBB0099",
+    // },
+    // {
+    //   title: "Cloud Architecture",
+    //   subtitle: "- Qwiklabs",
+    //   logo_path: "gcp_logo.png",
+    //   certificate_link:
+    //     "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
+    //   alt_name: "GCP",
+    //   color_code: "#4285F499",
+    // },
   ],
 };
 
@@ -495,14 +493,17 @@ const experience = {
       title: "Work",
       experiences: [
         {
-          title: "Associate AI Engineer",
-          company: "Legato Health Technology",
-          company_url: "https://legatohealthtech.com/",
-          logo_path: "legato_logo.png",
+          title: "IT Intern",
+          company: "Stellantis (formerly Fiat Chrysler Automobiles)",
+          company_url: "https://www.stellantis.com/",
+          logo_path: "Stellantis_logo.png",
           duration: "June 2020 - PRESENT",
           location: "Hyderabad, Telangana",
-          description:
-            "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
+          descriptions: [
+            "⚡ Stuyvesant High School is an ultra competive STEM school in New York City that has been ranked as the #1 high school in the city.",
+            "⚡ During my time there, I headed the Rowing Club and the Dragon Boating Club as President. I also directed a fall STC production of the Great Gatsby as well as the Stuy Flow dance crew for SING!. I wrote for the Humor and Opinion sections of the Stuyvesant Spectator and while in the Speech and Debate Team, I ranked 8th in the 2017 States Tournament.",
+            "⚡ I was also selected for the National Merit Scholarship and won awards for my performance in AP Environmental Science, Nutritional Science and Photography.",
+          ],
           color: "#0879bf",
         },
         {

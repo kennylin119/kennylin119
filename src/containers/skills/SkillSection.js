@@ -41,6 +41,13 @@ class SkillSection extends Component {
                   <h1 className="skills-heading" style={{ color: theme.text }}>
                     {skill.title}
                   </h1>
+                  <h3
+                    className="skills-subheading"
+                    style={{ color: theme.text }}
+                  >
+                    {" "}
+                    {skill.subtitle}{" "}
+                  </h3>
                 </Fade>
                 <Fade right duration={1500}>
                   <SoftwareSkill logos={skill.softwareSkills} />

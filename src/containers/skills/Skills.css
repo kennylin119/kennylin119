@@ -37,6 +37,14 @@
   line-height: normal;
 }
 
+.skills-subheading {
+  font-size: 30px;
+  font-weight: 200;
+  font-style: italic;
+  font-family: "Google Sans Regular";
+  line-height: normal;
+}
+
 /* Media Query */
 @media (max-width: 1380px) {
   .skills-heading {
