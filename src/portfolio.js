@@ -605,7 +605,7 @@ const publicationsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "kenny.jpeg",
+    profile_image_path: "kenny.svg",
     description:
       "Feel free to reach out for any reason! I'm availible on most social media, but email is preferred for a more formal contact. I'm currerntly seeking a full time offer for after I graduate in Spring of 2022.",
   },
