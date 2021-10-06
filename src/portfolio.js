@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "Hello, World! 👀 I'm a current senior at Lehigh University, studying Computer Science with minors in Data Science, Earth Science, and Chinese. I'm a big believer in all things tech and super excited to help build the future!",
   resumeLink:
-    "https://drive.google.com/file/d/1VD_qGlwNzgLjagJ98vMMmzypBIrCNqhj/view?usp=sharing",
+    "https://drive.google.com/file/d/1i9SVLxjEKNWpzKQ3bsD3arNYz3_7numR/view?usp=sharing",
   portfolio_repository: "https://github.com/kennylin119",
 };
 
